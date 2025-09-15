@@ -1,0 +1,66 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(14, 14, 124);
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                url("\petshop.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: white;
+}
+
+nav {
+    background-color: rgba(245, 220, 235, 0.632);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+} 
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+nav div img {
+    width: 90px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: black;
+   font-weight: 600;
+   padding: 8px 0;
+   transition: all;
+   transition-duration: 300ms;
+   border-bottom: 1px solid rgba(0, 0, 0, 0)
+}
+
+nav ul li a:hover {
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
+
+.head1 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.p    {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    padding-top: 60px;
+    font-family:Georgia, 'Times New Roman';
+}

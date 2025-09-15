@@ -1,0 +1,20 @@
+/* selector tag */
+.body{
+  background-color: rgb(14, 14, 124); 
+  height: 90px;
+  width: 10px;
+
+  
+}
+
+/*perbedaan selector tag dan class*/
+.home{ 
+    color:beige
+    
+    
+    
+}
+
+
+
+

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas CSS</title>
+  <style>
+    /* ===== BASIC ELEMENT STYLING ===== */
+
+    /* A. Background Styling */
+    body {
+      background-color: lightblue;
+    }
+    .bg-box {
+      background-image: url('sunflowers.jpg');
+      background-size: cover;
+      color: white;
+      padding: 20px;
+      margin: 10px 0;
+    }
+
+    /* B. Text Styling */
+    .text-style {
+      color: orange;
+      text-align: center;
+      text-decoration: underline;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin: 10px 0;
+    }
+
+    /* C. Font Styling */
+    .font-style {
+      font-family: Arial, sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      font-style: italic;
+      margin: 10px 0;
+    }
+
+    /* D. List Styling */
+    ul {
+      list-style-type: square;
+    }
+    ol {
+      list-style-type: upper-roman;
+    }
+
+    /* E. Link Styling */
+    a:link {
+      color: blue;
+    }
+    a:visited {
+      color: purple;
+    }
+    a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+    a:active {
+      color: green;
+    }
+
+    /* F. Table Styling */
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: 10px 0;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    /* ===== CSS BOX MODEL ===== */
+    .margin-box {
+      margin: 30px;
+      background-color: lightgreen;
+    }
+    .border-box {
+      border: 3px solid red;
+      padding: 10px;
+    }
+    .padding-box {
+      padding: 20px;
+      background-color: lightcoral;
+    }
+    .outline-box {
+      border: 2px solid black;
+      outline: 3px dashed blue;
+      padding: 10px;
+    }
+
+    /* Styling heading tiap section */
+    h2 {
+      margin-top: 40px;
+      background: #333;
+      color: white;
+      padding: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="text-align:center;">Tugas CSS – Basic Styling & Box Model</h1>
+
+  <!-- Background Styling -->
+  <h2>A. Background Styling</h2>
+  <div class="bg-box">Ini contoh teks dengan background image</div>
+
+  <!-- Text Styling -->
+  <h2>B. Text Styling</h2>
+  <p class="text-style">Contoh Text Styling</p>
+
+  <!-- Font Styling -->
+  <h2>C. Font Styling</h2>
+  <div class="font-style">Contoh Font Styling</div>
+
+  <!-- List Styling -->
+  <h2>D. List Styling</h2>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+  <ol>
+    <li>Item A</li>
+    <li>Item B</li>
+  </ol>
+
+  <!-- Link Styling -->
+  <h2>E. Link Styling</h2>
+  <a href="#">Contoh Link Styling</a>
+
+  <!-- Table Styling -->
+  <h2>F. Table Styling</h2>
+  <table>
+    <tr>
+      <th>Nama</th>
+      <th>Nilai</th>
+    </tr>
+    <tr>
+      <td>Ani</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <td>Budi</td>
+      <td>85</td>
+    </tr>
+  </table>
+
+  <!-- CSS BOX MODEL -->
+  <h2>Bagian 3 – CSS BOX MODEL</h2>
+
+  <h3>1. Margin</h3>
+  <div class="margin-box">Contoh Margin</div>
+
+  <h3>2. Border</h3>
+  <div class="border-box">Contoh Border</div>
+
+  <h3>3. Padding</h3>
+  <div class="padding-box">Contoh Padding</div>
+
+  <h3>4. Outline</h3>
+  <div class="outline-box">Contoh Outline</div>
+
+</body>
+</html>
+
